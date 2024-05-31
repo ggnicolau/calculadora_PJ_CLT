@@ -1,4 +1,5 @@
 streamlit==1.18.0
 pandas==1.5.3
 numpy==1.23.5
-matplotlib==3.6.3setuptools==67.0.0
+matplotlib==3.6.3
+setuptools==67.0.0
