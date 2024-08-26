@@ -274,7 +274,7 @@ def gerar_relatorio(autor, salario_bruto_mensal, alimentacao_saude_mensal, pj_in
     percentual_economia_pj = percentual_economia_pj_20h_ajustada
 
     proposta_texto = f"""
-    Proponho ser contratado como PJ por 20 horas semanais, o que resultará em uma economia significativa para a empresa, com uma redução de custo de aproximadamente {percentual_economia_pj:.2f}% em comparação à CLT, mesmo após equiparar o valor-hora de colaboração do tipo PJ com o regime CLT, para R$ {valor_hora_necessario_pj_20h:.2f}. Ou seja, em termos financeiros, todos ganham: contratante e contratado.
+    Proponho ser contratado como PJ por 20 horas semanais, o que resultará em uma economia significativa para a empresa, com uma redução de custo de aproximadamente {percentual_economia_pj:.2f}% em comparação à CLT, mesmo após equiparar o valor-hora de colaboração do tipo PJ com o regime CLT, para R$ {valor_hora_necessario_pj_20h:.2f}/h. Ou seja, em termos financeiros, todos ganham: contratante e contratado.
 
     Também há um ganho qualitativo relevante. Esta abordagem permitirá que a empresa tenha flexibilidade para alocar recursos adicionais, otimizando a equipe sem sobrecarregar os colaboradores. Caso haja interesse, pode-se contratar duas pessoas para 20 horas semanais cada, ao invés de uma única pessoa para 40 horas, tornando a equipe mais produtiva, ágil e eficiente. A combinação de diferentes habilidades e a distribuição da carga de trabalho garantem uma rotina sustentável, promovendo a saúde e bem-estar dos colaboradores.
 
