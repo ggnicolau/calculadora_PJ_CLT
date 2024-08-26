@@ -488,7 +488,7 @@ def gerar_relatorio(autor, salario_bruto_mensal, alimentacao_saude_mensal, pj_in
 
     # Adiciona o texto em negrito logo após o texto anterior
     pdf.set_font('Helvetica', 'B', 12)  # Define a fonte para negrito
-    pdf.multi_cell(0, 7.5, f"- Após o ajuste de horas para igualar CLT, a empresa ainda continua economizando aproximadamente R$ {economia_pj_40h_ajustada:,.2f} ({percentual_economia_pj_40h_ajustada:.2f}%) para 40h e R$ {economia_pj_20h_ajustada:,.2f} ({percentual_economia_pj_20h_ajustada:.2f}%) para 20h. A contratante continua a maior beneficiária na troca do regime CLT para PJ. Ou seja, esse é o valor mínimo para o contratado, ainda tendo margem apra negociação")
+    pdf.multi_cell(0, 7.5, f"- Após o ajuste de horas para igualar CLT, a empresa ainda continua economizando aproximadamente R$ {economia_pj_40h_ajustada:,.2f} ({percentual_economia_pj_40h_ajustada:.2f}%) para 40h e R$ {economia_pj_20h_ajustada:,.2f} ({percentual_economia_pj_20h_ajustada:.2f}%) para 20h. A contratante continua a maior beneficiária na troca do regime CLT para PJ. Ou seja, esse é o valor mínimo para o contratado, ainda existindo margem para negociação.")
     pdf.set_font('Helvetica', '', 12)  # Volta para a fonte normal
 
     # Gerar e salvar PDF
