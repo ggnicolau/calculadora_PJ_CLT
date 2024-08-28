@@ -560,7 +560,7 @@ with st.container():
         autor = st.text_input("Autor", value="Guilherme G. Nicolau, PhD")
         salario_bruto_mensal = st.number_input("Salário Bruto Mensal (R$) - CLT", value=35000.00, step=500.00)
     with col2:
-        alimentacao_saude_mensal = st.number_input("Alimentação e Saúde Mensal - CLT (R$)", value=1200.00, step=50.00)
+        alimentacao_saude_mensal = st.number_input("Alimentação e Saúde Mensal - CLT (R$)", value=2000.00, step=50.00)
         pj_inss_minimo_mensal = st.number_input("Contribuição INSS Mínimo PJ Mensal - PJ (R$)", value=145.20, step=10.00)
 
 col3, col4 = st.columns(2)
